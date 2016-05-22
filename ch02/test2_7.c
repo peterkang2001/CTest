@@ -6,8 +6,8 @@ int main(int argc, char const *argv[])
 	float piece_length = 0.0f;
 
 	piece_length = plank_length / piece_count;
-	printf("A plank %f feet long can be cut into %f pieces %f feet long.\n",
+	printf("A plank %.2f feet long can be cut into %.0f pieces %.2f feet long.\n",
 	plank_length, piece_count, piece_length );
-	
+
 	return 0;
 }
