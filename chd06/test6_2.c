@@ -7,10 +7,10 @@ int main(int argc, char const *argv[])
 	while(str1[count] != '\0')
 		count++;
 	printf("The length of the string \"%s\" is %d characters.\n", str1, count);
-	
+
 	while(str2[count] != '\0')
 		count++;
-	printf("The length of the string \"%s\" is %d characters.\n", str1, count);
+	printf("The length of the string \"%s\" is %d characters.\n", str2, count);
 
 	return 0;
 }
